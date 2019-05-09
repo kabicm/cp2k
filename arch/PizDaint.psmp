@@ -15,7 +15,7 @@
 # - UZH group members - take this:
 #BDIR     = /store/uzh/uzh1
 # - all others - take the nightly mirror:
-BDIR     = /scratch/snx3000/alazzaro
+BDIR     = /project/csstaff/kabicm/cp2k/
 
 # === CONFIGURE TO YOUR NEEDS (1 = true, 0 = false) ===
 USE_DBCSR_CUDA = 1
@@ -75,7 +75,7 @@ endif
 #   -mtune=haswell = (set internally via module:) [optimize for this instruction set only]
 #   -funroll-loops     = unroll loops where the number of iterations is known at compiler time or on entry to the loop
 #
-AFLAGS   = $(DFLAGS) $(INCS) -fopenmp -O3 -ffast-math -funroll-loops
+AFLAGS   = $(DFLAGS) $(INCS) -fopenmp -O3 -funroll-loops
 CPPFLAGS =
 FCFLAGS  = $(AFLAGS) -ffree-form -ffree-line-length-512
 CFLAGS   = $(AFLAGS)
