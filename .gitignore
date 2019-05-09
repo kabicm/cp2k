@@ -302,5 +302,14 @@ tags
 # Persistent undo
 [._]*.un~
 
+# specific
+.DS_Store*
+*.swp
+__pycache__
+build*
+exports
+doc
+.idea*
+
 
 # End of https://www.gitignore.io/api/python,fortran,c,c++,cuda,emacs,vim
