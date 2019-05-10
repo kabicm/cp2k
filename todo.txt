@@ -1,0 +1,8 @@
+
+1. file: cp2k/src/fm/cp_fm_basic_linalg.F
+look for: pdgemm and dgemm calls
+
+2. file: cp2k/src/rpa_ri_gpw.F
+look for: _RPA_matrix_operations
+line 3224, cp_gemm call
+
