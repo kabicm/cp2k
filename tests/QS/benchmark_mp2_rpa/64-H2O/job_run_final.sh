@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#BATCH --job-name=my_job
+#BATCH --job-name=H2O-final
 #SBATCH --mail-type=ALL
 #SBATCH --time=00:30:00
 #SBATCH --nodes=128
